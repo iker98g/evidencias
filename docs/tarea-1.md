@@ -1,4 +1,4 @@
-# 3. Conectarse mediante SSH al servidor Ubuntu de AWS.
+# 1. Conectarse mediante SSH al servidor Ubuntu de AWS.
 
 - [Conectarse vía SSH para comprobar conectividad](#conectarse-via-ssh-para-comprobar-conectividad)
 

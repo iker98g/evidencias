@@ -1,4 +1,4 @@
-# 3. Instalación.
+# 2. Instalación.
 
 - [Actualizar lista de paquetes](#actualizar-lista-de-paquetes)
 
