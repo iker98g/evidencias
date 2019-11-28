@@ -6,6 +6,8 @@
 
 - [Instalar MySQL](#instalar-mysql)
 
+- [Instalar phpMyAdmin](#instalar-phpmyadmin)
+
 ## Actualizar lista de paquetes
 
 Vamos a ejecutar el siguiente comando para tener actualizada la lista de paquetes en su ultima versión:
@@ -44,10 +46,29 @@ Al ejecutar este comando, nos mandará una serie de preguntas sobre la contrase�
 
 ![](images/tarea-2/configuracion_mysql_2.PNG)
 
-Escribiendo el siguiente comando entraremos dentro del MySQL
+Escribiendo el siguiente comando estaremos dentro de MySQL:
 
     sudo mysql
 
 ![](images/tarea-2/configuracion_mysql_3.PNG)
+
+## Instalar phpMyAdmin
+
+Como último paso, vamos a instalar phpMyadmin para poder acceder a las BBDD:
+
+![](images/tarea-2/instalacion_phpmyadmin_1.PNG)
+
+Cuando comience la instalación, obtendremos el siguiente mensaje que nos pedirá que seleccionemos el servidor web, nosotros seleccionaremos apache2.
+
+![](images/tarea-2/instalacion_phpmyadmin_2.PNG)
+
+En la siguiente pantalla, pedirá que la base de datos sea utilizada por phpMyAdmin. Lo dejaremos por defecto.
+
+![](images/tarea-2/instalacion_phpmyadmin_3.PNG)
+
+Por último, introduciremos una contraseña para acceder a phpMyAdmin y la confirmaremos nuevamente en la siguiente pantalla.
+
+![](images/tarea-2/instalacion_phpmyadmin_4.PNG)
+
 
 
