@@ -1,74 +1,28 @@
-# 2. Instalación.
+# 2. Solventar problemas de direccionamiento
 
-- [Actualizar lista de paquetes](#actualizar-lista-de-paquetes)
+Vamos a reservar una Elastic IP para tener siempre un mismo dominio/ip para hacer tanto conexiones SSH como HTTP a nuestro servidor.
 
-- [Instalar Apache](#instalar-apache)
+Para llevarlo a cabo, seguiremos los siguientes pasos:
 
-- [Instalar MySQL](#instalar-mysql)
+1. En el panel de navegación, elegimos Elastic IPs (Direcciones IP elásticas).
 
-- [Instalar phpMyAdmin](#instalar-phpmyadmin)
+![](images/tarea-2/ip_elastica_1.PNG)
 
-## Actualizar lista de paquetes
+2. Elegimos Allocate new address (Asignar nueva dirección).
 
-Vamos a ejecutar el siguiente comando para tener actualizada la lista de paquetes en su ultima versión:
+![](images/tarea-2/ip_elastica_2.PNG)
 
-    sudo apt-get update
+3. En IPv4 address pool (Grupo de direcciones IPv4), elegimos Amazon pool (Grupo de Amazon).
 
-![](images/tarea-2/listado_de_paquetes.PNG)
+![](images/tarea-2/ip_elastica_3.PNG)
 
-## Instalar Apache
+4. Elegimos Allocate (Asignar) y cierre la pantalla de confirmación.
 
-El siguiente paso será la instalación del Apache en nuestra máquina virtual. Para ello, ejecutaremos el siguiente comando:
+![](images/tarea-2/ip_elastica_4.PNG)
 
-    sudo apt install apache2
+5. Le damos al boton de asociar esta IP Elastica y rellenamos los campos correspondientes con los datos de nuestra máquina.
 
-Una vez ejecutado el comando, nos preguntará a ver si queremos continuar, le respondemos que si y se instalará Apache.
-
-![](images/tarea-2/instalacion_apache.PNG) 
-
-## Instalar MySQL
-
-A continuación, instalaremos MySQL. MySQL es un sistema de gestión de bases de datos de código abierto. Lo instalaremos de la siguiente forma:
-
-    sudo apt install mysql-server
-
-![](images/tarea-2/instalacion_mysql.PNG)
-
-#### Configurar MySQL
-
-Esto instalará MySQL, pero no nos pedirá que creemos ninguna contraseña ni que hagamos ningún otro cambio de configuración. Dado a que esto deja su instalación de MySQL insegura, vamos a ejecutar el siguiente script de seguridad:
-
-    sudo mysql_secure_installation
-
-![](images/tarea-2/configuracion_mysql_1.PNG)
-
-Al ejecutar este comando, nos mandará una serie de preguntas sobre la contraseña, usuario, privilegios... Respondemos todas las preguntas y ya tendremos el MySQL configurado.
-
-![](images/tarea-2/configuracion_mysql_2.PNG)
-
-Escribiendo el siguiente comando estaremos dentro de MySQL:
-
-    sudo mysql
-
-![](images/tarea-2/configuracion_mysql_3.PNG)
-
-## Instalar phpMyAdmin
-
-Como último paso, vamos a instalar phpMyadmin para poder acceder a las BBDD:
-
-![](images/tarea-2/instalacion_phpmyadmin_1.PNG)
-
-Cuando comience la instalación, obtendremos el siguiente mensaje que nos pedirá que seleccionemos el servidor web, nosotros seleccionaremos apache2.
-
-![](images/tarea-2/instalacion_phpmyadmin_2.PNG)
-
-En la siguiente pantalla, pedirá que la base de datos sea utilizada por phpMyAdmin. Lo dejaremos por defecto.
-
-![](images/tarea-2/instalacion_phpmyadmin_3.PNG)
-
-Por último, introduciremos una contraseña para acceder a phpMyAdmin y la confirmaremos nuevamente en la siguiente pantalla.
-
-![](images/tarea-2/instalacion_phpmyadmin_4.PNG)
+![](images/tarea-2/ip_elastica_5.PNG)
 
 
 
