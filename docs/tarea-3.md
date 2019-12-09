@@ -14,6 +14,20 @@ Una vez rellenado los datos, podremos verlos al final de la página donde tenemo
 
 ![](images/tarea-3/gestion_dns_3.PNG)
 
+#### 3. Tipos de DNS
+
+Los tipos de registros más utilizados son:
+
+- A: Dirección (address). Este registro se usa para traducir nombres de servidores de alojamiento a direcciones IPv4.
+
+- AAAA: Dirección (address). Este registro se usa en IPv6 para traducir nombres de hosts a direcciones IPv6.
+
+- CNAME: Nombre canónico (canonical Name). Se usa para crear nombres de servidores de alojamiento adicionales, o alias, para los servidores de alojamiento de un dominio.
+
+- TXT: Los registros TXT son un tipo de registros de sistema de nombres de dominio (DNS) que contienen información de texto de fuentes externas a tu dominio y que puedes añadir a su configuración.
+
+- SRV: Service record (SRV record).
+
 
 
 
