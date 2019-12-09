@@ -14,7 +14,7 @@ Una vez rellenado los datos, podremos verlos al final de la página donde tenemo
 
 ![](images/tarea-3/gestion_dns_3.PNG)
 
-#### 3. Tipos de DNS
+#### Tipos de DNS
 
 Los tipos de registros más utilizados son:
 
